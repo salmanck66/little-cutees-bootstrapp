@@ -1,0 +1,158 @@
+.search
+{
+    
+    width: 100%;
+
+    position: absolute;
+    align-items: center;
+    fill: white;
+    background-color: rgb(243, 242, 242);
+    border-bottom: 2px solid #304fb8;
+    z-index: 3;
+}
+.search input
+{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 10%;
+width: 50%;
+height: 12vh;
+border: 0px;
+background-color: #5f6368;
+}
+.search *
+{
+    font-size: 20px;
+    fill: #5f6368;
+    background-color: rgb(243, 242, 242);
+}
+@media (max-width: 1360px){
+    iframe
+    {
+        height: 760px;
+    }
+    
+    
+}
+@media (max-width: 1360px){
+    iframe
+    {
+        height: 760px;
+    }
+    
+    
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+ {
+    iframe
+    {
+        height: 200px;
+    }
+    .cclass
+    {
+        text-align: center;
+    }
+    .bclass
+    {
+        display: flex;
+        justify-content: center;
+    }
+ }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    iframe
+    {
+        height: 400px;
+    }
+    
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    iframe
+    {
+        height: 560px;
+    }
+    .imgres
+    {
+        width: 40%;
+        padding-left: 5%;
+    }
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    iframe
+    {
+        height: 600px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    iframe
+    {
+        height: 760px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .dclass
+    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5% 0%;
+
+    }
+    .fclass
+    {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .rowdflex
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .row-shirt
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+@media only screen and (max-width: 360px) 
+{
+
+    .navex
+    {
+        display: flex;
+        justify-content: start;
+    }
+    .h2
+    {
+        font-size: 14px;
+    }
+    .classicon
+    {
+        font-size: 14px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) 
+{
+
+    .spclass
+    {
+        display: none;
+    }
+    
+}
+
+
+
+
+
